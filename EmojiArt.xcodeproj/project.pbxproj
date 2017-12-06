@@ -11,6 +11,8 @@
 		DC129BDD1FD851B100F835FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC129BDB1FD851B100F835FF /* Main.storyboard */; };
 		DC129BDF1FD851B100F835FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC129BDE1FD851B100F835FF /* Assets.xcassets */; };
 		DC129BE21FD851B100F835FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC129BE01FD851B100F835FF /* LaunchScreen.storyboard */; };
+		DC129BEB1FD8531900F835FF /* EmojiArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC129BEA1FD8531900F835FF /* EmojiArtViewController.swift */; };
+		DC129BED1FD8548500F835FF /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC129BEC1FD8548500F835FF /* EmojiArtView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DC129BDE1FD851B100F835FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC129BE11FD851B100F835FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC129BE31FD851B100F835FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC129BEA1FD8531900F835FF /* EmojiArtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtViewController.swift; sourceTree = "<group>"; };
+		DC129BEC1FD8548500F835FF /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		DC129BD61FD851B100F835FF /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
+				DC129BEA1FD8531900F835FF /* EmojiArtViewController.swift */,
+				DC129BEC1FD8548500F835FF /* EmojiArtView.swift */,
 				DC129BDB1FD851B100F835FF /* Main.storyboard */,
 				DC129BE31FD851B100F835FF /* Info.plist */,
 			);
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC129BD81FD851B100F835FF /* AppDelegate.swift in Sources */,
+				DC129BEB1FD8531900F835FF /* EmojiArtViewController.swift in Sources */,
+				DC129BED1FD8548500F835FF /* EmojiArtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JohnRMartin.EmojiArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -300,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = JohnRMartin.EmojiArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
