@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC099DD11FE6D4F500EFD5FF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC099DD01FE6D4F500EFD5FF /* Utilities.swift */; };
 		DC129BD81FD851B100F835FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC129BD71FD851B100F835FF /* AppDelegate.swift */; };
 		DC129BDD1FD851B100F835FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC129BDB1FD851B100F835FF /* Main.storyboard */; };
 		DC129BDF1FD851B100F835FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC129BDE1FD851B100F835FF /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC099DD01FE6D4F500EFD5FF /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		DC129BD41FD851B100F835FF /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC129BD71FD851B100F835FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC129BDC1FD851B100F835FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,9 +59,10 @@
 		DC129BD61FD851B100F835FF /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
-				DC129BEA1FD8531900F835FF /* EmojiArtViewController.swift */,
-				DC129BEC1FD8548500F835FF /* EmojiArtView.swift */,
 				DC129BDB1FD851B100F835FF /* Main.storyboard */,
+				DC129BEC1FD8548500F835FF /* EmojiArtView.swift */,
+				DC129BEA1FD8531900F835FF /* EmojiArtViewController.swift */,
+				DC099DD01FE6D4F500EFD5FF /* Utilities.swift */,
 				DC129BE31FD851B100F835FF /* Info.plist */,
 			);
 			path = EmojiArt;
@@ -149,6 +152,7 @@
 			files = (
 				DC129BD81FD851B100F835FF /* AppDelegate.swift in Sources */,
 				DC129BEB1FD8531900F835FF /* EmojiArtViewController.swift in Sources */,
+				DC099DD11FE6D4F500EFD5FF /* Utilities.swift in Sources */,
 				DC129BED1FD8548500F835FF /* EmojiArtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8DNC7F7PU;
 				INFOPLIST_FILE = EmojiArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnRMartin.EmojiArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8DNC7F7PU;
 				INFOPLIST_FILE = EmojiArt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JohnRMartin.EmojiArt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
